@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "inter";
+    src: url(/fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+.menu{
+    width: 18%;
+    height: 695px;
+    border: solid black 2px;
+    background-color: #0C042F;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20px;
+    border-radius: 5px;
+    
+    
+}
+
+.menu__cont_tlt_circle{
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    border: solid white 1px;
+    background-color: #00A42C;
+}
+
+
+.menu__opciones_inicio{
+    color: #D8EDF9;
+    font-family: "inter";
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 500;
+}
+.menu__opciones_ayuda{
+    color: #D8EDF9;
+    font-family: "inter";
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 500;
+}
+.menu__opciones_rp{
+    color: #D8EDF9;
+    font-family: "inter";
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 500;
+}
+.menu__opciones_chv{
+    color: #D8EDF9;
+    font-family: "inter";
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 500;
+}
+.menu__cont_tlt_titulo{
+    color: white;
+    margin-bottom: 15px;
+    font-family: "inter";
+    font-size: 18px;
+    font-weight: bold;
+}
+.menu__cont_tlt_nombre{
+    color: white;
+    font-family: "inter";
+    font-size: 12px;
+}
+
+.menu__opciones{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    
+    
+}
+.menu__cont_tlt{
+    margin-bottom: 30%;
+    margin-top: 60px;
+
+}
+
+.menu__opciones a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.menu__cont_tlt_user{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

@@ -1,0 +1,91 @@
+@font-face {
+    font-family: "inter";
+    src: url(/fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.principal{
+    width: 80%;
+    position: relative;
+    height: 575px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.principal::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/img/hospital2.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    z-index: -1;
+    border-radius: 5px;
+}
+
+
+
+.footer__frame1{
+    width: 260px;
+    height: 174px;
+    /* border: solid black 2px; */
+    background-color: #37AFE1;
+    border-radius: 5px;
+    border: solid 2px #0C042F;
+}
+
+.footer__frame2{
+    width: 260px;
+    height: 174px;
+    /* border: solid black 2px; */
+    background-color: #77CDFF;
+    border-radius: 5px;
+    border: solid 2px #0C042F;
+}
+
+.footer{
+    position:relative;
+    display: flex;
+    width: 549px;
+    height: 192px;
+    flex-direction: row;
+    top: 500px;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer__frame1_prrf1{
+    font-family: "inter";
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.footer__frame2_prrf2{
+    font-family: "inter";
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.footer__frame1_img1{
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+.footer__frame2_img2{
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
